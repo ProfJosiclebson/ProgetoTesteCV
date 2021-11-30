@@ -1,0 +1,38 @@
+Sistema de Login em PHP
+
+É um script de um arquivo só, ele redireciona os usuários que fazem o login para uma pagina pré-definida. muito simples de utilizar, mesmo para quem não sabe nada de PHP
+
+Fiz esse script com a intenção de ajudar aqueles que estão começando a mexer com PHP, é um Sistema bem simples mais que pode ajudar em uma urgência.
+
+Desenvolvi ele com a ajuda do pessoal dos fóruns da ScriptBrasil [http://scriptbrasil.com.br/forum] e da WMOnline [http://forum.wmonline.com.br] qualquer duvida envie um e-mail ou use estes fóruns
+
+Alterando senhas, incluindo usuários, excluindo usuários alterando endereço
+
+abra o arquivo login.php
+senhas cadastradas:
+
+USUÁRIO:      SENHA:        PAGINA LOGADA:
+vinicius      garagem69     logado.htm
+adm           senha         adm.htm
+teste3        senha3        teste3.htm
+
+quando o usuário erra o login: errou.htm
+
+
+
+para adicionar novos usuários:
+}elseif (($usuario=="AQUI_VAI_O_LOGIN") && ($senha=="AQUI_VAI_A_SENHA")){
+header("Location: ENDEREÇO_DE_RESPOSTA");
+
+para excluir é só apagar o registro correspondente.
+
+se você fizer alguma alteração.. ou quiser contar como utilizou esse script
+envie um e-mail para relatar as novas mudanças...
+
+
+
+
+
+
+
+viniciusjau@hotmail.com
